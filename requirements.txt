@@ -1,16 +1,5 @@
-# Core Python libraries for data handling and API requests
-pandas==2.0.3
 requests==2.31.0
-
-# For JSON handling (built-in, but good to specify)
-# json is standard library, no need to install
-
-# Optional: For advanced regex or logging (if used in scripts)
-regex==2023.8.8
-
-# For testing (if you add unit tests later)
-pytest==7.4.0
-
-# Note: Bash scripts don't require pip installs, as they're system-level.
+pandas==2.1.0
+pyyaml==6.0
 python-dotenv==1.0.0
-python-json-logger==2.0.7
+
