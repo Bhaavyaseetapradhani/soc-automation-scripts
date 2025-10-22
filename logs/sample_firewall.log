@@ -1,0 +1,7 @@
+Oct 22 10:20:11 firewall DROP from 192.168.1.100 to 10.0.0.1 port 443
+Oct 22 10:20:12 firewall DROP from 192.168.1.101 to 10.0.0.2 port 22
+Oct 22 10:20:13 firewall ALLOW from 192.168.1.50 to 8.8.8.8 port 53
+Oct 22 10:20:14 firewall DROP from 192.168.1.102 to 10.0.0.3 port 3389
+Oct 22 10:20:15 firewall DROP from 192.168.1.103 to 10.0.0.4 port 445
+Oct 22 10:20:16 firewall ALLOW from 192.168.1.1 to 8.8.4.4 port 53
+Oct 22 10:20:17 firewall DROP from 192.168.1.150 to 172.16.0.1 port 23
