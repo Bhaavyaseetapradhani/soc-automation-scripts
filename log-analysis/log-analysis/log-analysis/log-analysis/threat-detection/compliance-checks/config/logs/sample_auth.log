@@ -1,0 +1,8 @@
+Oct 22 10:15:23 server sshd[1234]: Failed password for admin from 192.168.1.100 port 12345 ssh2
+Oct 22 10:15:24 server sshd[1235]: Failed password for admin from 192.168.1.100 port 12346 ssh2
+Oct 22 10:15:25 server sshd[1236]: Failed password for admin from 192.168.1.100 port 12347 ssh2
+Oct 22 10:15:26 server sshd[1237]: Failed password for admin from 192.168.1.100 port 12348 ssh2
+Oct 22 10:15:27 server sshd[1238]: Failed password for admin from 192.168.1.100 port 12349 ssh2
+Oct 22 10:15:28 server sshd[1239]: Invalid user attacker from 192.168.1.101 port 54321 ssh2
+Oct 22 10:15:29 server sshd[1240]: Invalid user attacker from 192.168.1.101 port 54322 ssh2
+Oct 22 10:15:30 server sshd[1241]: Accepted password for john from 192.168.1.50 port 12345 ssh2
