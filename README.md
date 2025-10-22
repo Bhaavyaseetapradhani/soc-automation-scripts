@@ -23,7 +23,7 @@ soc-automation-scripts/
 └── README.md
 ```
 
-## 🛠 Tools & Scripts
+##  Tools & Scripts
 
 ### 1. SSH Brute Force Detector
 Automatically identifies suspicious SSH activity by detecting multiple failed login attempts from the same IP address within a configurable time window. This helps prevent unauthorized access and credential compromise.
