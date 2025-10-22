@@ -1,78 +1,68 @@
-# 🛡️ SOC Automation Scripts
+# SOC Automation Scripts
 
-Collection of Python and Bash security automation scripts for Security Operations Center (SOC) analysts. These tools help streamline log analysis, threat detection, and incident response workflows.
+A collection of **Python and Bash scripts** for automating common Security Operations Center (SOC) tasks, such as log analysis, threat detection, and incident response.  
+Designed to help streamline workflows and reduce manual work in cybersecurity operations.
 
----
+--
 
-## 📁 Project Structure
-```
+##  Project Structure
 soc-automation-scripts/
-├── log-analysis/          # Scripts for parsing and analyzing security logs
-├── threat-detection/      # Automated threat hunting and IOC checking
-├── incident-response/     # IR automation and forensic tools
-└── compliance-checks/     # Security audit and compliance scripts
-```
+├── log-analysis/ # Scripts for parsing and analyzing security logs
+├── threat-detection/ # Automated threat hunting and IOC checking
+├── incident-response/ # IR automation and forensic tools
+├── compliance-checks/ # Security audit and compliance scripts
+├── logs/ # Sample log files for testing scripts
+├── config/ # Configuration files (API keys, templates)
+├── requirements.txt # Python dependencies
+└── README.md
 
 ---
 
-##  Tools & Scripts
+## 🛠 Tools & Scripts
 
-### 1. **SSH Brute Force Detector**
-- Analyzes `/var/log/auth.log` for failed login attempts
-- Alerts on 5+ failed attempts from same IP within 5 minutes
+### 1. SSH Brute Force Detector
+- Detects multiple failed SSH login attempts from the same IP within a short time.
+- Helps prevent unauthorized access.
 - **Tech:** Bash, Regex
 
-### 2. **IOC Threat Intelligence Checker**
-- Queries VirusTotal and AbuseIPDB APIs for IP reputation
-- Automated hash and domain lookups
+### 2. IOC Threat Intelligence Checker
+- Checks IP addresses, domains, and file hashes against VirusTotal and AbuseIPDB.
+- Helps identify known threats automatically.
 - **Tech:** Python, Requests library
 
-### 3. **Log Parser & Aggregator**
-- Parses firewall, proxy, and system logs
-- Extracts key security events and anomalies
+### 3. Log Parser & Aggregator
+- Parses firewall, proxy, and system logs to extract security events and anomalies.
+- Generates easy-to-read summaries for SOC analysts.
 - **Tech:** Python, Pandas, Regex
 
-### 4. **Automated Compliance Auditor**
-- Checks Linux systems against CIS benchmarks
-- Validates patch levels and security configurations
+### 4. Automated Compliance Auditor
+- Checks Linux systems against **CIS benchmarks**.
+- Validates patch levels and security settings to maintain compliance.
 - **Tech:** Bash scripting
 
 ---
 
-##  Impact
+## Quick Start
 
--  Reduced manual log analysis time by **60%**
--  Automated daily security checks across **25+ systems**
--  Enabled real-time threat detection and alerting
+### Prerequisites
+- Python 3.8+
+- Bash 4.0+
+- Linux/Unix environment
 
----
+### Installation & Running Scripts
+```bash
+# Clone the repository
+git clone https://github.com/Bhaavyaseetapradhani/soc-automation-scripts.git
+cd soc-automation-scripts
 
-##  Coming Soon
+# Install Python dependencies
+pip install -r requirements.txt
 
-- [ ] Windows Event Log analyzer
-- [ ] SIEM integration scripts (Splunk/ELK)
-- [ ] Automated incident report generator
-- [ ] Network traffic anomaly detector
+# Run the SSH brute force detector (example)
+cd log-analysis
+python3 ssh_bruteforce_detector.py
 
----
+# Run the compliance check (example)
+cd ../compliance-checks
+bash compliance_check.sh
 
-##  Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-**Libraries:** Requests • Pandas • Regex • JSON
-
----
-
-##  Contact
-
-**Bhaavya Seeta Pradhani**  
-SOC Analyst | SIEM & Threat Detection Specialist  
- pradhaniseeta@gmail.com  
- [LinkedIn](https://linkedin.com/in/bhaavya-seeta-pradhani-576067361)
-
----
-
-*This repository showcases security automation capabilities developed through hands-on SOC operations and cybersecurity projects.*
