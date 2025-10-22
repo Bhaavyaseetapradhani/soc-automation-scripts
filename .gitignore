@@ -1,1 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
+# Virtual Environment
+venv/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Configuration Files (API Keys, Secrets)
+config/api_keys.conf
+config/*.conf
+.env
+.env.local
+
+# Logs and Reports
+logs/
+*.log
+reports/
+*.txt
+security_report.json
+
+# Test files
+test/
+tests/
+*.test
+
+# Cache
+.cache/
+*.cache
