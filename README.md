@@ -15,7 +15,7 @@ soc-automation-scripts/
 
 ---
 
-## 🔧 Tools & Scripts
+##  Tools & Scripts
 
 ### 1. **SSH Brute Force Detector**
 - Analyzes `/var/log/auth.log` for failed login attempts
@@ -39,15 +39,15 @@ soc-automation-scripts/
 
 ---
 
-## 📊 Impact
+##  Impact
 
-- ⚡ Reduced manual log analysis time by **60%**
-- 🎯 Automated daily security checks across **25+ systems**
-- 🔍 Enabled real-time threat detection and alerting
+-  Reduced manual log analysis time by **60%**
+-  Automated daily security checks across **25+ systems**
+-  Enabled real-time threat detection and alerting
 
 ---
 
-## 🚀 Coming Soon
+##  Coming Soon
 
 - [ ] Windows Event Log analyzer
 - [ ] SIEM integration scripts (Splunk/ELK)
@@ -56,7 +56,7 @@ soc-automation-scripts/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
@@ -66,12 +66,12 @@ soc-automation-scripts/
 
 ---
 
-## 📫 Contact
+##  Contact
 
 **Bhaavya Seeta Pradhani**  
 SOC Analyst | SIEM & Threat Detection Specialist  
-📧 pradhaniseeta@gmail.com  
-💼 [LinkedIn](https://linkedin.com/in/bhaavya-seeta-pradhani-576067361)
+ pradhaniseeta@gmail.com  
+ [LinkedIn](https://linkedin.com/in/bhaavya-seeta-pradhani-576067361)
 
 ---
 
